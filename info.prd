@@ -1,0 +1,288 @@
+# Prompt: Generate a Fully Functional Browser-Based Operating System (WebOS)
+
+Generate a **single HTML file** for a professional, fully functional, browser-based operating system called **WebOS**, built with advanced features and modern design principles.  
+The file must include **all HTML, CSS, JavaScript, and Three.js** in one modular, well-documented structure.
+
+---
+
+## 🎨 Visual Design & User Experience
+- Modern **dark theme** with customizable accent colors and **glassmorphism transparency effects**
+- **Dynamic 3D particle background** (Three.js) with mouse interaction, repulsion effects, and GPU acceleration
+- **Smooth animations** and transitions at 60fps
+- Responsive design for multiple screen sizes & orientations
+- Support for multiple themes: **dark, light, high-contrast**
+- **Customizable wallpapers** with blur & brightness effects
+- **Desktop widget system** (weather, news, system monitoring)
+
+---
+
+## 🪟 Advanced Window Management
+- Draggable, resizable windows with **snap-to-grid & edge snapping**
+- Window states: minimize, maximize, fullscreen
+- **Multi-window support** with z-index focus handling
+- Animated transitions for minimize/maximize/fade
+- **Virtual desktops** (multiple workspaces)
+- Taskbar hover previews (window thumbnails)
+- Keyboard shortcuts: **Alt+Tab, Win+D, etc.**
+
+---
+
+## 📌 Taskbar & Start Menu
+- Smart taskbar: app indicators, progress bars, notification badges
+- Advanced start menu with:
+  - **Search with real-time results**
+  - Recently used apps
+  - Power options (shutdown/restart/logout)
+  - System settings quick access
+  - App categorization & folders
+- **System tray**: clock, volume, network, notifications
+- Quick settings: WiFi, Bluetooth, brightness, etc.
+
+---
+
+## 📂 Core Applications
+### File Explorer++
+- Hierarchical file system with unlimited folders
+- File operations: copy, cut, paste, delete, rename, drag & drop
+- Views: list, grid, detailed
+- File previews (images, text, basic types)
+- Search & metadata properties
+- Bulk operations and file icons/thumbnails
+
+### Web Browser
+- Multi-tab browsing
+- Full navigation controls
+- URL bar with autocomplete
+- Bookmarks & history
+- Private browsing mode
+- Download manager
+- Developer tools (basic inspector)
+- Customizable homepage
+
+### Text Editor
+- Syntax highlighting for multiple languages
+- File operations: new, open, save, print
+- Editing: cut/copy/paste, find/replace
+- Font customization
+- Word wrap & line numbers
+- Tabbed editing with autosave
+- Multiple encodings
+- Print preview
+
+### Scientific Calculator
+- Standard + scientific functions
+- Trigonometry, logs, factorial, memory functions
+- History tracking
+- Programmer mode (bin/hex/oct)
+- Unit conversions
+
+### Terminal Emulator
+- Rich command set: `help`, `date`, `clear`, `echo`, `about`, `ls`, `cd`, `mkdir`, `rm`, `cat`, `calc`, `weather`, `sysinfo`, `theme`, `restart`, `shutdown`
+- Command history with arrow keys
+- Tab completion
+- Command piping & redirection
+- Color-coded output
+- ASCII art & Easter eggs
+
+---
+
+## 🎵 Additional Apps
+- **Media Player** (audio/video, playlists, fullscreen, subtitles, visualizer)
+- **Image Viewer** (gallery, zoom/rotate/pan, slideshow, filters, multi-format support)
+- **System Settings** (appearance, display, sound, user accounts, privacy, updates)
+- **App Store** (browse/install apps, categories, search, ratings, updates)
+
+---
+
+## ⚙️ System-Wide Features
+- Multi-user login system
+- File persistence (localStorage / IndexedDB)
+- Notifications with action buttons
+- Global keyboard shortcuts
+- Screenshot tool
+- Clipboard manager with history
+- Network status monitoring
+- Accessibility (screen reader, high contrast)
+- Multi-language support
+- Auto-update mechanism
+
+---
+
+## 🛠️ Technical Requirements
+- Single HTML file (all assets inline)
+- Modular architecture
+- Error handling & user feedback
+- Optimized for **60fps**
+- Memory management & leak prevention
+- Cross-browser compatible (Chrome, Firefox, Safari, Edge)
+- Mobile & touch support
+- Progressive Web App (PWA) installable
+- Offline support with service worker
+- Security: input validation, XSS prevention
+
+---
+
+## 📑 Code Quality Standards
+- Extensive commenting
+- Clean, readable, consistent code
+- Modular, extensible design
+- Documentation with API references
+- Example usage & tutorials
+- Performance benchmarks
+- Browser compatibility matrix & fallbacks
+
+---
+
+## ✅ Final Goal
+The final implementation should feel like a **professional-grade operating system**, with high attention to **animations, responsiveness, user experience**, and **cross-device usability** (desktop + mobile).
+
+
+Generate a single HTML file for a fully functional, browser-based operating system called 'WebOS' with advanced features and modern design principles.
+The OS should implement a sophisticated desktop environment with the following specifications:
+Visual Design & User Experience
+Modern dark theme with customizable accent colors and transparency effects (glassmorphism)
+Dynamic 3D particle background using Three.js with mouse interaction, particle repulsion effects, and GPU acceleration
+Smooth animations and transitions for all UI elements (60fps target)
+Responsive design that adapts to different screen sizes and orientations
+Multiple theme support (dark, light, high contrast) with theme switching capability
+Customizable wallpapers with blur and brightness effects
+Desktop widgets system for weather, news, or system monitoring
+Advanced Window Management System
+Draggable, resizable windows with snap-to-grid functionality and edge snapping
+Window minimization, maximization, and fullscreen capabilities
+Multi-window support with proper z-index management and focus handling
+Window animations (minimize/maximize transitions, fade effects)
+Virtual desktop support (multiple workspaces)
+Window preview thumbnails on taskbar hover
+Keyboard shortcuts for window management (Alt+Tab, Win+D, etc.)
+Enhanced Taskbar & Start Menu
+Smart taskbar with running app indicators, progress bars, and notification badges
+Advanced start menu with:
+Search functionality with real-time results
+Recently used apps section
+Power options (shutdown, restart, logout)
+System settings quick access
+App categorization and folders
+System tray with clock, volume control, network status, and notifications
+Quick settings panel for WiFi, Bluetooth, screen brightness, etc.
+Core Applications Suite
+File Explorer++
+Hierarchical file system with unlimited folder creation
+File operations: copy, cut, paste, delete, rename, drag & drop
+Multiple view modes: list, grid, detailed view
+File previews for images, text, and basic file types
+Search functionality within folders
+File properties dialog with metadata
+Context menus with relevant actions
+File type icons and thumbnails
+Bulk operations (select multiple files)
+Advanced Web Browser
+Multi-tab browsing with tab management
+Full navigation controls: back, forward, refresh, home
+Address bar with URL validation and auto-complete
+Bookmark system with folders and quick access
+Browsing history with search functionality
+Private browsing mode
+Download manager with progress tracking
+Developer tools (basic inspector)
+Customizable homepage with quick links
+Professional Text Editor
+Advanced text editing with syntax highlighting for multiple languages
+File operations: New, Open, Save, Save As, Print
+Edit functions: Cut, Copy, Paste, Find, Replace, Select All
+Font customization: family, size, color, style
+Word wrap and line numbers toggle
+Multiple document interface (tabbed editing)
+Auto-save functionality
+Text encoding support (UTF-8, ASCII, etc.)
+Print preview and printing capabilities
+Scientific Calculator
+Basic and scientific modes
+Standard operations: +, -, *, /, %, square root
+Advanced functions: sin, cos, tan, log, ln, factorial
+Memory functions: M+, M-, MR, MC
+History tracking with recall capability
+Keyboard input support
+Expression evaluation with parentheses
+Unit conversion tools
+Programmer mode (binary, hex, octal)
+Advanced Terminal Emulator
+Comprehensive command set:
+help: Interactive help system with command categories
+date/time: Current date and time with timezone support
+clear/cls: Clear terminal with animation
+echo [text]: Text output with color support
+about: Detailed system information
+ls/dir: List files and directories
+cd [path]: Change directory
+mkdir [name]: Create directory
+rm/del [file]: Delete files
+cat/type [file]: Display file contents
+calc [expression]: Command-line calculator
+weather [city]: Mock weather information
+sysinfo: System statistics
+theme [name]: Change system theme
+restart: Restart the OS
+shutdown: Close the OS
+Command history with arrow key navigation
+Tab completion for commands and files
+Command piping and redirection simulation
+Color-coded output for better readability
+ASCII art and Easter eggs
+Additional Built-in Applications
+Media Player
+Audio and video playback with basic controls
+Playlist management
+Visual equalizer with animations
+Full-screen mode for videos
+Subtitle support for videos
+Image Viewer
+Image gallery with thumbnail view
+Zoom, rotate, and pan capabilities
+Slideshow mode with transitions
+Basic image editing (brightness, contrast, filters)
+Support for multiple formats (JPEG, PNG, GIF, SVG)
+System Settings
+Appearance customization (themes, wallpapers, colors)
+Display settings (resolution, orientation)
+Sound settings (volume, notifications)
+User account management
+Privacy and security settings
+System updates and maintenance
+App Store
+Browse and install additional applications
+App categories and search functionality
+User ratings and reviews
+Update notifications for installed apps
+System-wide Features
+Multi-user support with login system
+File system persistence using localStorage/IndexedDB
+System notifications with action buttons
+Keyboard shortcuts for all major functions
+Screen capture functionality
+Clipboard management with history
+Network status monitoring
+Performance optimization for smooth operation
+Accessibility features (screen reader support, high contrast)
+Multi-language support with localization
+Auto-update mechanism for applications
+Technical Requirements
+Single HTML file containing all HTML, CSS, JavaScript, and Three.js
+Modular architecture with clear separation of concerns
+Comprehensive error handling and user feedback
+Performance optimization for 60fps smooth operation
+Memory management to prevent leaks
+Cross-browser compatibility (Chrome, Firefox, Safari, Edge)
+Mobile-responsive design with touch support
+Progressive Web App features (can be installed)
+Offline functionality with service worker
+Security best practices (input validation, XSS prevention)
+Code Quality Standards
+Extensive commenting explaining all major components
+Clean, readable code with consistent naming conventions
+Modular design allowing easy extension and maintenance
+Comprehensive documentation with API references
+Example usage and extension tutorials
+Performance benchmarks and optimization notes
+Browser compatibility matrix and fallbacks
+The final implementation should feel like a professional operating system with attention to detail in animations, responsiveness, and user experience, suitable for both desktop and mobile devices.
