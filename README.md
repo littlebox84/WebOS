@@ -87,9 +87,123 @@ Safety:
 └─ README.md             # This file
 ```
 
+## Enhancement Opportunities
+
+### Performance & Optimization
+- Code splitting of the monolithic HTML/JS bundle
+- Bundle optimization (minify/compress assets)
+- Tree shaking to drop unused code paths
+- Asset compression for images, audio, and fonts
+- Lazy loading/progressive boot for apps
+- Web Workers for offloading heavy computation
+- IndexedDB adoption for large datasets
+- Memory management/cleanup for closed apps
+- Smarter caching and invalidation policies
+
+### User Experience
+- Multi-language (i18n) support
+- Customizable keyboard shortcuts
+- Rich drag & drop for files and app rearrangement
+- Touch gesture support (swipe, pinch)
+- Voice command integration
+- Expanded accessibility/ARIA work
+- Dark-mode scheduling/automation
+- Actionable notification center
+- Global system search with filters
+
+### Applications & Features
+- File manager grid/list view with previews
+- Calendar with scheduling/reminders
+- Email client (POP3/IMAP/SMTP)
+- Real-time chat application
+- Code editor with syntax highlighting/themes
+- Paint/drawing canvas tools
+- Spreadsheet with basic formulas
+- Database/SQL-like query interface
+- Cloud storage integration (Drive/Dropbox)
+- Screen recording utilities
+- Screenshot capture/annotation tool
+- Package manager for third-party apps
+- App store discovery/installation flow
+
+### System Features
+- Multi-user accounts/profiles
+- Network file sharing (SMB/FTP)
+- Remote desktop (VNC/RDP) client
+- Virtual desktops/workspaces
+- Window tiling/snap layouts
+- System tray/background indicators
+- Startup program management
+- System update service
+- Backup & restore tooling
+- System restore checkpoints
+- Performance monitor dashboards
+- Task scheduler (cron-style)
+- Centralized config/registry system
+
+### Security & Privacy
+- File/folder encryption
+- Built-in VPN client
+- Firewall/traffic controls
+- Antivirus/malware scanning
+- Password manager vault
+- Two-factor authentication support
+- Privacy/incognito browsing mode
+- End-to-end data encryption
+- Role-based access control
+- Audit logging for activity tracking
+
+### Development & Extensibility
+- Plugin API for third parties
+- Extension store compatibility
+- Built-in developer tools/IDE
+- Package registry (npm-like)
+- Full API documentation portal
+- SDK for app developers
+- Testing framework (unit/integration)
+- CI/CD automation hooks
+- Version control (Git) integration
+- Container/Docker deployment support
+
+### Gaming & Entertainment
+- Game library/launcher management
+- Emulator support for retro systems
+- Streaming integrations (Twitch/YouTube)
+- Advanced music player features
+- Video editor toolkit
+- Photo editor suite
+- WebXR/VR experiences
+- Gamepad/controller support
+- Achievement/badge system
+- Multiplayer/online capabilities
+
+### Advanced Features
+- AI assistant integrations
+- Machine learning for predictions/suggestions
+- Blockchain/decentralized storage options
+- Cryptocurrency wallet integration
+- IoT smart-home device control
+- AR/VR immersive interfaces
+- Biometric authentication
+- Handwriting/stylus input
+- Gesture recognition systems
+- Eye-tracking navigation
+
+### Mobile & Cross-platform
+- Deeper PWA/mobile enhancements
+- Native iOS/Android wrappers
+- Desktop app wrappers (Electron, etc.)
+- Cross-device sync service
+- Robust offline mode
+- Push notification support
+- App shortcut/quick actions
+- Widget/home screen support
+- Deep linking/URL scheme handling
+- Cross-platform desktop builds (Win/Mac/Linux)
+
 ## Known Limitations
 - The PRD describes an expansive set of features; the current build implements a focused subset.
-- Multi‑user, App Store, full multi‑desktop, and advanced DevTools are not yet implemented.
+- Multi-user, App Store, full multi-desktop, and advanced DevTools are not yet implemented.
 
 ## License
 Copyright © 2025. All rights reserved.

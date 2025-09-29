@@ -5,9 +5,38 @@ The file must include **all HTML, CSS, JavaScript, and Three.js** in one modular
 
 ---
 
+## ✅ Current Scope (As Built) — 2025-09-25
+
+This section summarizes the functionality currently implemented in `webos-enhanced.html` and recent architectural decisions. The original PRD below remains our roadmap.
+
+### Implemented
+- Desktop environment with menu bar, notifications, clock, dock, and Start menu
+- Window manager: open/focus/minimize/maximize/move/resize with z-index management
+- Virtual File System persisted in `localStorage` with basic operations (create/read/write/move/copy/delete, search)
+- Built-in apps: `ToastSearcher` (file explorer), `Web Navigator` (embedded browser with proxy toggle), `Text Studio` (editor), `Terminal` (toy shell), `Media Player`, `Image Viewer`, `System Settings`, `Task Command`
+- App catalog, categories, Start menu with search, and category management
+- PWA: static `manifest.json` linked in `<head>`, service worker `sw.js` for offline cache
+- Background particles implemented with Canvas (Three.js optional)
+- New Start button icon (grid SVG) in taskbar
+- AI Assistant app with safe automations
+  - Open apps and URLs via `/open` and `/openurl`
+  - File search `/search`, read `/read` (text only, size capped)
+  - Write `/write` and `/append` restricted to `/Documents` and `/Downloads`, with confirmation modal
+  - OpenAI‑compatible chat via configurable Base URL / Model / API key, saved in `webos.ai.settings.v1`
+
+### Not Yet Implemented (Roadmap from PRD)
+- Multi-user login, App Store, virtual desktops, thumbnails on hover, full developer tools, advanced terminal command set, widgets suite, multi-language, auto-update, etc.
+
+### Deviations/Decisions
+- Particles use a Canvas implementation for performance and simplicity; Three.js may be reintroduced later if needed
+- Static manifest is the single source of truth; dynamic Blob manifest injection has been removed to avoid conflicts
+- Desktop icons are hidden by default for a clean look; can be re-enabled via CSS or future Settings toggle
+
+---
+
 ## 🎨 Visual Design & User Experience
 - Modern **dark theme** with customizable accent colors and **glassmorphism transparency effects**
-- **Dynamic 3D particle background** (Three.js) with mouse interaction, repulsion effects, and GPU acceleration
+- **Dynamic particle background** (Canvas; Three.js optional) with mouse interaction and GPU-friendly rendering
 - **Smooth animations** and transitions at 60fps
 - Responsive design for multiple screen sizes & orientations
 - Support for multiple themes: **dark, light, high-contrast**
